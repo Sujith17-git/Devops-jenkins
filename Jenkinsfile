@@ -6,13 +6,13 @@ pipeline {
 
         stage('Compile') {
             steps {
-                bat 'javac Hello.java'
+                bat 'javac Spidey.java'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'java Hello'
+                bat 'java Spidey'
             }
         }
 
